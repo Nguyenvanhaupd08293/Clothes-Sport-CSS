@@ -1,0 +1,92 @@
+:root {
+  --primary-color: rgb(10, 104, 10);
+  --second-color: #212121;
+  --text-color: #3d3d3d;
+  --white-color: #FFF;
+  --border-color: #e0e0e0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  --width: 150px;
+  --height: 50px;
+  position: relative;
+  margin-right: 10px;
+  align-items: center;
+  min-width: var(--width);
+  height: var(--height);
+  padding: 0 24px;
+  letter-spacing: .1rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: 2px solid var(--primary-color);
+  font-size: 1.8rem;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: rgba(223, 216, 218, 0.8) 0px 5px 20px;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--white-color);
+  z-index: -1;
+  transition: .5s ease-in-out;
+}
+
+
+.btn:hover::before {
+  width: 100%;
+
+}
+
+.btn:hover {
+  color: var(--primary-color);
+}
