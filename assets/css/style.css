@@ -226,20 +226,20 @@ a>span {
 
 .sport_title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
-  margin: 20px 0;
+  color: #333;
+  margin-bottom: 40px;
+  position: relative;
 }
 
-.sport_title:before {
-  position: absolute;
+.sport_title::after {
   content: "";
-  width: 20%;
-  height: 2px;
-  background: #0E1C22;
-  bottom: -80px;
-  left: 50%;
-  transform: translateX(-50%);
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #e60023;
+  margin: 15px auto 0;
 }
 
 .sport_list {
@@ -374,17 +374,18 @@ a>span {
   color: #fff;
   font-size: 1rem;
   width: 18%;
-  border: none;
+  border: 1px solid #fff;
   display: block;
   margin: 0 auto;
   padding: 10px;
 }
 
 .btn_view:hover {
-  border: 2px solid #0E1C22;
-  color: #0E1C22;
+  border: 2px solid #e60023;
+  box-shadow: #c5001d 4px 0px 5px 0px;
+  color: #e60023;
   font-weight: 700;
-  transition: all .2s ease;
+  transition: all .3s ease;
 }
 
 /*news  */
@@ -392,7 +393,7 @@ a>span {
   padding: 60px 0;
 }
 
-.section-title {
+.section_title {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
@@ -401,13 +402,13 @@ a>span {
   position: relative;
 }
 
-.section-title::after {
+.section_title::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 130px;
   height: 3px;
   background: #e60023;
-  margin: 15px auto 0;
+  margin: 5px auto 0;
 }
 
 .news-grid {
