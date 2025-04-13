@@ -317,14 +317,14 @@ a>span {
 
 .label-sale {
   position: absolute;
-  top: 0;
-  right: 0;
-  min-width: 50px;
-  text-align: center;
-  background: #d9121f;
-  color: #fff;
-  padding: 5px 7px;
-  border-radius: 0;
+  top: 10px;
+  right: 10px;
+  background-color: #e60023;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .product_name {
@@ -354,7 +354,7 @@ a>span {
   vertical-align: middle;
   overflow: hidden;
   font-size: 14px;
-  color: #C54934;
+  color: #e60023;
   font-weight: bold;
   line-height: 15px;
 }
