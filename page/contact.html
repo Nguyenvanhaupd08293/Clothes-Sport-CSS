@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/clothes.css">
+  <link rel="stylesheet" href="/assets/css/product_detail.css">
+  <link rel="stylesheet" href="/assets/css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Contact</title>
+</head>
+<div id="root">
+  <header>
+    <div class="header container">
+      <div class="header_logo">
+        <a href="/home.html" class="logo">HAU<span>SPORT</span></a>
+      </div>
+      <div class="header_menu">
+        <ul class="menu_list">
+          <li class="menu_item"><a href="/page/clothes.html">Áo quần</a></li>
+          <li class="menu_item"><a href="/page/accessory.html">Phụ kiện</a></li>
+          <li class="menu_item"><a href="/page/news.html">Tin tức</a></li>
+          <li class="menu_item"><a href="index.html">Hệ thống cửa hàng</a></li>
+          <li class="menu_item"><a href="/page/contact.html">Liên hệ</a></li>
+        </ul>
+        <div class="header_search">
+          <input type="text" placeholder="Search...">
+          <button></button>
+        </div>
+      </div>
+      <div class="header_right">
+        <div class="header_user">
+          <a href="page/login.html" class=" header_icon user_login"><i class="fa fa-user" aria-hidden="true"></i>
+            <ul class="user_list">
+              <li>Đăng nhập</li>
+              <li>Đăng ký</li>
+            </ul>
+          </a>
+        </div>
+        <div class="header_cart">
+          <a href="page/cart.html" class="cart header_icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+      </div>
+  </header>
+  <section class="navbar">
+    <ul class="container nav_list">
+      <li class=""><a href="">Trang chủ</a></li>
+      <li class="menu__item"><a href="">Danh mục</a></li>
+      <li class="menu__item">
+        <h1>Áo quần</h1>
+      </li>
+    </ul>
+  </section>
+  <section class="contact-content">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Thông Tin Liên Hệ</h2>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-text">
+              <h3>Địa chỉ</h3>
+              <p>Tòa nhà Li-Ning, 123 Đường Tôn Đức Thắng, Quận Liên Chiểu, Đà Nẵng</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-text">
+              <h3>Điện thoại</h3>
+              <p><a href="tel:+842836578901">028 3657 8901</a></p>
+              <p><a href="tel:+84987654321">0987 654 321</a> (Hotline)</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-text">
+              <h3>Email</h3>
+              <p><a href="mailto:info@lining.vn">info@lining.vn</a></p>
+              <p><a href="mailto:support@lining.vn">support@lining.vn</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="info-text">
+              <h3>Giờ làm việc</h3>
+              <p>Thứ 2 - Thứ 6: 8:00 - 17:30</p>
+              <p>Thứ 7: 8:00 - 12:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Gửi Tin Nhắn</h2>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Họ và tên *</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Điện thoại</label>
+              <input type="tel" id="phone" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Chủ đề</label>
+              <select id="subject" class="form-control">
+                <option value="">Chọn chủ đề...</option>
+                <option value="product">Thông tin sản phẩm</option>
+                <option value="order">Đơn hàng</option>
+                <option value="warranty">Bảo hành</option>
+                <option value="feedback">Góp ý/Khiếu nại</option>
+                <option value="other">Khác</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Nội dung *</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Gửi tin nhắn</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map-section">
+    <div class="container">
+      <h2 class="section_title">Vị Trí Cửa Hàng</h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d651.1743613179242!2d106.96970299641906!3d17.17657368004993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3140c900769ccf4d%3A0xf28941f147dc5c19!2zTmjDoCBWxINuIGjDs2EgdGjDtG4gTGnDqm0gQuG6r2M!5e0!3m2!1svi!2s!4v1744561345541!5m2!1svi!2s"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <footer class="li-ning-footer">
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-links">
+          <div class="link-column">
+            <h4>GIỚI THIỆU</h4>
+            <ul>
+              <li><a href="#">Hệ thống cửa hàng</a></li>
+              <li><a href="#">Thông tin liên hệ</a></li>
+              <li><a href="#">Chính sách bán hàng</a></li>
+            </ul>
+          </div>
+          <div class="link-column">
+            <h4>CHÍNH SÁCH</h4>
+            <ul>
+              <li><a href="#">Bảo mật</a></li>
+              <li><a href="#">Thanh toán</a></li>
+              <li><a href="#">Vận chuyển</a></li>
+            </ul>
+          </div>
+          <div class="link-column">
+            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+            <ul>
+              <li><a href="#">Điều khoản dịch vụ</a></li>
+              <li><a href="#">Hướng dẫn mua hàng</a></li>
+              <li><a href="#">Hướng dẫn đo size và bảo quản</a></li>
+              <li><a href="#">Hướng dẫn thanh toán</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-brand">
+          <h3>HAUSPORT DISTRIBUTOR IN VIETNAM</h3>
+          <div class="newsletter">
+            <h4>NEWSLETTER</h4>
+            <p>Đăng ký nhận bản tin để cập nhật những tin tức mới nhất về HauSport Distributor in Vietnam</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Địa chỉ email của bạn" required>
+              <button type="submit">Đăng ký</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">
+          &copy; 2023 HAUSPORT DISTRIBUTOR IN VIETNAM. All Rights Reserved.
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<body>
+
+</body>
+
+</html>
