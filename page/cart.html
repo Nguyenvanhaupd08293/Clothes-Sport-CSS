@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ Hàng | Li-Ning Vietnam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/cart.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/clothes.css">
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <div class="header container">
+        <div class="header_logo">
+          <a href="/home.html" class="logo">HAU<span>SPORT</span></a>
+        </div>
+        <div class="header_menu">
+          <ul class="menu_list">
+            <li class="menu_item"><a href="/page/clothes.html">Áo quần</a></li>
+            <li class="menu_item"><a href="page/accessory.html">Phụ kiện</a></li>
+            <li class="menu_item"><a href="/page/news.html">Tin tức</a></li>
+            <li class="menu_item"><a href="index.html">Hệ thống cửa hàng</a></li>
+            <li class="menu_item"><a href="page/about.html">Liên hệ</a></li>
+          </ul>
+          <div class="header_search">
+            <input type="text" placeholder="Search...">
+            <button></button>
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_user">
+            <a href="../page/auth.html" class=" header_icon user_login"><i class="fa fa-user" aria-hidden="true"></i>
+              <ul class="user_list">
+                <li>Đăng nhập</li>
+                <li>Đăng ký</li>
+              </ul>
+            </a>
+          </div>
+          <div class="header_cart">
+            <a href="../page/cart.html" class="cart header_icon"><i class="fa fa-shopping-cart"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+    </header>
+    <section class="navbar">
+      <ul class="container nav_list">
+        <li class=""><a href="">Trang chủ</a></li>
+        <li class="menu__item"><a href="">Danh mục</a></li>
+        <li class="menu__item">
+          <h1>Áo quần</h1>
+        </li>
+      </ul>
+    </section>
+    <main class="cart-page">
+      <div class="container">
+        <div class="page-header">
+          <h1>Giỏ hàng của bạn</h1>
+          <p>Bạn có <span class="items-count">3 sản phẩm</span> trong giỏ hàng</p>
+        </div>
+
+        <div class="cart-grid">
+          <!-- Cart Items -->
+          <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="https://via.placeholder.com/150x150?text=Li-Ning+Product" alt="Áo Li-Ning">
+              </div>
+              <div class="item-details">
+                <h3 class="item-name">Áo Thun Li-Ning Badminton Pro 2023</h3>
+                <p class="item-sku">Mã SP: LN-BP23-RD</p>
+                <div class="item-size">Size: <span>M</span></div>
+                <button class="remove-item">Xóa</button>
+              </div>
+              <div class="item-price">
+                <div class="current-price">1.299.000₫</div>
+                <div class="original-price">1.599.000₫</div>
+                <div class="discount-badge">-19%</div>
+              </div>
+              <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" value="1" min="1" class="quantity-input">
+                <button class="quantity-btn plus">+</button>
+              </div>
+              <div class="item-total">
+                <div class="total-price">1.299.000₫</div>
+              </div>
+            </div>
+
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="https://via.placeholder.com/150x150?text=Li-Ning+Product" alt="Quần Li-Ning">
+              </div>
+              <div class="item-details">
+                <h3 class="item-name">Quần Short Li-Ning Running 2023</h3>
+                <p class="item-sku">Mã SP: LN-RS23-BK</p>
+                <div class="item-size">Size: <span>L</span></div>
+                <button class="remove-item">Xóa</button>
+              </div>
+              <div class="item-price">
+                <div class="current-price">799.000₫</div>
+              </div>
+              <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" value="2" min="1" class="quantity-input">
+                <button class="quantity-btn plus">+</button>
+              </div>
+              <div class="item-total">
+                <div class="total-price">1.598.000₫</div>
+              </div>
+            </div>
+
+            <!-- Cart Item 3 -->
+            <div class="cart-item">
+              <div class="item-image">
+                <img src="https://via.placeholder.com/150x150?text=Li-Ning+Product" alt="Giày Li-Ning">
+              </div>
+              <div class="item-details">
+                <h3 class="item-name">Giày Bóng Rổ Li-Ning Way of Wade 10</h3>
+                <p class="item-sku">Mã SP: LN-WW10-WH</p>
+                <div class="item-size">Size: <span>42</span></div>
+                <button class="remove-item">Xóa</button>
+              </div>
+              <div class="item-price">
+                <div class="current-price">3.499.000₫</div>
+                <div class="original-price">4.299.000₫</div>
+                <div class="discount-badge">-19%</div>
+              </div>
+              <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" value="1" min="1" class="quantity-input">
+                <button class="quantity-btn plus">+</button>
+              </div>
+              <div class="item-total">
+                <div class="total-price">3.499.000₫</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Summary -->
+          <div class="cart-summary">
+            <div class="summary-card">
+              <h3>Tóm tắt đơn hàng</h3>
+              <div class="summary-row">
+                <span>Tạm tính</span>
+                <span>6.396.000₫</span>
+              </div>
+              <div class="summary-row">
+                <span>Giảm giá</span>
+                <span>-1.000.000₫</span>
+              </div>
+              <div class="summary-row">
+                <span>Phí vận chuyển</span>
+                <span>30.000₫</span>
+              </div>
+              <div class="summary-row total">
+                <span>Tổng cộng</span>
+                <span>5.426.000₫</span>
+              </div>
+              <button class="checkout-btn">Tiến hành thanh toán</button>
+              <div class="continue-shopping">
+                <a href="products.html">
+                  <i class="fas fa-arrow-left"></i> Tiếp tục mua sắm
+                </a>
+              </div>
+            </div>
+
+            <div class="promo-code">
+              <h4>Mã giảm giá</h4>
+              <div class="promo-input">
+                <input type="text" placeholder="Nhập mã giảm giá">
+                <button class="apply-btn">Áp dụng</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="li-ning-footer">
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-links">
+            <div class="link-column">
+              <h4>GIỚI THIỆU</h4>
+              <ul>
+                <li><a href="#">Hệ thống cửa hàng</a></li>
+                <li><a href="#">Thông tin liên hệ</a></li>
+                <li><a href="#">Chính sách bán hàng</a></li>
+              </ul>
+            </div>
+            <div class="link-column">
+              <h4>CHÍNH SÁCH</h4>
+              <ul>
+                <li><a href="#">Bảo mật</a></li>
+                <li><a href="#">Thanh toán</a></li>
+                <li><a href="#">Vận chuyển</a></li>
+              </ul>
+            </div>
+            <div class="link-column">
+              <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+              <ul>
+                <li><a href="#">Điều khoản dịch vụ</a></li>
+                <li><a href="#">Hướng dẫn mua hàng</a></li>
+                <li><a href="#">Hướng dẫn đo size và bảo quản</a></li>
+                <li><a href="#">Hướng dẫn thanh toán</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-brand">
+            <h3>HAUSPORT DISTRIBUTOR IN VIETNAM</h3>
+            <div class="newsletter">
+              <h4>NEWSLETTER</h4>
+              <p>Đăng ký nhận bản tin để cập nhật những tin tức mới nhất về HauSport Distributor in Vietnam</p>
+              <form class="subscribe-form">
+                <input type="email" placeholder="Địa chỉ email của bạn" required>
+                <button type="submit">Đăng ký</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            &copy; 2023 HAUSPORT DISTRIBUTOR IN VIETNAM. All Rights Reserved.
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/assets/js/cart.js"></script>
+</body>
+
+</html>

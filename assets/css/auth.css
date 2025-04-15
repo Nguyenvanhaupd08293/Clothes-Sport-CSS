@@ -178,7 +178,7 @@
 
 .form-group input {
   width: 100%;
-  padding: 14px;
+  padding: 14px 0px 10px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
@@ -196,7 +196,7 @@
 }
 
 .password-input input {
-  padding-right: 45px;
+  padding-right: 0px;
 }
 
 .toggle-password {
